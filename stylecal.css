@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    overflow-y: hidden;
+}
+
+form {
+    display: grid;
+    inline-size: 100%;
+    block-size: 100vw;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(6, 6.65rem);
+    
+}
+
+.box {
+    grid-row: 1 / 2;
+    grid-column: 1 / 5;
+    font-size: 2.5rem;
+    padding: 0.4rem;
+    background-color: rgb(249, 247, 243);
+    border-top: 14px rgb(115, 10, 10) solid;
+    border-left: 14px rgb(223, 68, 68) solid;
+    border-right: 14px rgb(223, 68, 68) solid;
+}
+
+.siete {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.ocho {
+    grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.nueve {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.suma {
+    grid-row: 2 / 3;
+    grid-column: 4 / 5;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.seis {
+    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.cinco {
+    grid-row: 3 / 4;
+    grid-column: 2 / 3;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.cuatro {
+    grid-row: 3 / 4;
+    grid-column: 1 / 2;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.resta {
+    grid-row: 3 / 4;
+    grid-column: 4 / 5;
+    font-size: 2.5rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.tres {
+    grid-row: 4 / 5;
+    grid-column: 3 / 4;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.dos {
+    grid-row: 4 / 5;
+    grid-column: 2 / 3;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.uno {
+    grid-row: 4 / 5;
+    grid-column: 1 / 2;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.multi {
+    grid-row: 4 / 5;
+    grid-column: 4 / 5;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    color: white;
+}
+
+.borrar {
+    grid-row: 5 / 6;
+    grid-column: 1 / 2;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.cero {
+    grid-row: 5 / 6;
+    grid-column: 2 / 3;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.punto {
+    grid-row: 5 / 6;
+    grid-column: 3 / 4;
+    font-size: 2.2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.division {
+    grid-row: 5 / 6;
+    grid-column: 4 / 5;
+    font-size: 2rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 8px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.igual {
+    grid-row: 6 / 7;
+    grid-column: 1 / 5;
+    font-size: 3.5rem;
+    border: 2px rgb(115, 10, 10) solid;
+    border-bottom: 14px rgb(115, 10, 10) solid;
+    background-color:rgb(223, 68, 68) ;
+    color: white;
+}
+
+.siete:active, .ocho:active, .nueve:active, .suma:active, .seis:active, .cinco:active, .cuatro:active, .resta:active, .tres:active, .dos:active, .uno:active, .multi:active, .borrar:active, .cero:active, .punto:active, .division:active, .igual:active {
+    background-color:rgb(163, 41, 41);
+    border-bottom: 4px rgb(115, 10, 10) solid;
+}
